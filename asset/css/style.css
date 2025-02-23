@@ -1,0 +1,257 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+.navbar{
+    width: 100%;
+    height: auto;
+}
+.container{
+    width: 1200px;
+    height: auto;
+    /* background-color: rgb(168, 192, 192); */
+    margin: auto;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -10px;
+}
+.contant{
+    display: flex;
+    padding: 30px 0;
+}
+.navbar-brand{
+    font-size: 22px;
+    text-decoration: none;
+    color: rgb(243, 12, 12);
+}
+.navbar-nav{
+    display: flex;
+    list-style-type: none;
+    padding: 0 20px;
+    /* text-decoration: none; */
+}
+.nav-link{
+    color: rgb(17, 16, 16);
+    font-size: 18px;
+    font-family: Poppins;
+    text-decoration: none;
+    padding: 0 20px;
+    display: block;
+}
+.btn{
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: rgb(248, 13, 13);
+}
+.btn-card{
+    font-size: 18px;
+    color: #eee5e5;
+    text-decoration: none;
+}
+.herobanner{
+    width: 100%;
+    height: 350px;
+    background-color: blueviolet;
+    background-image: url(../css/img/image.png);
+    background-size: cover;
+    background-repeat: none;
+    background-position:center;
+}
+.main-herobanner{
+    width: 400px;
+    height: auto;
+    /* background-color: aqua; */
+    align-items: center;
+    padding: 50px 0;
+}
+.title-herobanner{
+    font-size: 32px;
+    color: rgb(143, 127, 73);
+}
+.main-herobanner p{
+    font-size: 18px;
+    padding: 10px 0;
+    color: aliceblue;
+}
+.btn-a{
+    color: #f5eeee;
+    padding: 10px 20px;
+    border: 1px solid dodgerblue;
+    border-radius: 20px;
+    outline: none;
+    font-weight: bold;
+    cursor: pointer;
+    background: transparent;
+    
+    /* margin-left: 20px; */
+}
+.btn-a:hover{
+    background-color: blue;
+}
+.container-promote{
+    width: 100%;
+    height: auto;
+    /* background-color: aqua; */
+    
+}
+.rounded{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(71, 71, 88);
+    margin-top: -90px;
+    border-radius: 5px;
+}
+.col-4{
+    width: 33.33%;
+}
+/* .row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+    margin: 0 -15px;
+    justify-content: space-between;
+} */
+.card{
+    align-items: center;
+    display: flex;
+    color: aliceblue;
+    padding: 20px;
+}
+.icon{
+    font-size: 35px;
+    padding: 20px 20px;
+}
+.My-Wallpaper{
+    font-size: 32px;
+    color: #f51616;
+    text-align: center;
+   padding:30px;
+}
+.col-3{
+    width: 25%;
+    padding: 10px;
+}
+.card-wallpaper{
+    width: 100%;
+    height: auto;
+    background-color: #e4d7d7;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(red, green, blue, alpha);
+}
+.card-img-wallpaper{
+    width: 100%;
+    height: 200px;
+}
+img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.card-body-wallpaper{
+    padding: 10px 20px;
+    align-items: center;
+    
+}
+.card-text-wallpaper{
+    font-size: 18px;
+   
+}
+.crad-title-wallpaper{
+    font-size: 15px;
+    padding: 10px 0;
+    /* text-align: center; */
+}
+.card-link{
+    display: flex;
+    flex-wrap: wrap;
+    /* display: block; */
+    justify-content:space-between;
+    
+    
+}
+.link{
+    font-size: 15px;
+    text-decoration: none;
+}
+.view{
+    text-decoration: none;
+    box-shadow: 0 0px 9px rgb(177, 11, 11);
+    border-radius: 5px;
+    background-color: #f51616;
+    padding: 3px 10px ;
+    color: #e4d7d7;
+}
+.container-footer{
+    width: 100%;
+    height: 300px;
+    background-color: #8d8585;
+    margin-top: 50px;
+}
+
+footer {
+    background-color: #3a3a48;
+    color: white;
+    padding: 20px 0;
+}
+.footer{
+    margin-top: 50px;
+}
+.footer-container{
+    margin-top: 40px;
+}
+.footer-container .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+/* .footer-container .container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1000px;
+    margin: auto;
+    flex-wrap: wrap;
+    
+} */
+
+.footer-section {
+    flex: 1;
+    min-width: 300px;
+    /* margin: 10px; */
+    margin-left: auto;
+    /* background-color: #f51616; */
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.footer-section p {
+    margin: 5px 0;
+}
+
+.brand h3 {
+    font-size: 20px;
+}
+.box{
+    padding: 0 25px;
+}
